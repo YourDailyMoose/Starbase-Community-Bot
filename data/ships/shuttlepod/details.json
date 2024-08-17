@@ -1,0 +1,15 @@
+{
+    "name": "Shuttlepod",
+    "role": "transports",
+    "cost": 0,
+    "shipDescription": "A tiny shuttle that is designed for fast transportation. This ship has no weapons but can hold two people.",
+    "performance": {
+        "shieldStrength": 9,
+        "maxSpeed": 900,
+        "boostDuration": 1,
+        "cloaking": true,
+        "minimumEfficientCrew": 0
+    },
+    "weapons": null,
+    "url": "https://starbase-roblox.fandom.com/wiki/Shuttlepod"
+}

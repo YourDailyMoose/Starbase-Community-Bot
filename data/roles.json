@@ -1,0 +1,333 @@
+{
+    "lightBombers": {
+        "name": "Light Bombers",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Fast and small ships designed for attacking capital ships with their powerful payloads, though quite fragile.",
+        "ships": 15
+    },
+    "fighters": {
+        "name": "Fighters",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Extremely fast strike craft intended to dogfight and destroy strike craft with air-to-air missiles and autocannons.",
+        "ships": 11
+    },
+    "freighters": {
+        "name": "Freighters",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Cargo freighters with the unique ability to buy and sell cargo for a profit at cargo stations across the system.",
+        "ships": 8
+    },
+    "escorts": {
+        "name": "Escorts",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "The largest ships which can be reasonably controlled by one player, these escort ships are small warships that can fend of attacks from strike craft and reasonably attack larger capital ships.",
+        "ships": 26
+    },
+    "transports": {
+        "name": "Transports",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Ships designed for transporting passengers or cargo, typically lightly armoured but fast. These ships can fulfil a variety of purposes.",
+        "ships": 11
+    },
+    "heavyBombers": {
+        "name": "Heavy Bombers",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Large strike craft intended to devastate capital ships and colonies with arsenals of powerful munitions.",
+        "ships": 10
+    },
+    "warships": {
+        "name": "Warships",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "All ships in this role require a crew. Powerful ships designed for war. Their heavy weapon complement and powerful defensive systems make them unbeatable when controlled by a crew of many players.",
+        "ships": 20
+    },
+    "carriers": {
+        "name": "Carriers",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Any strike craft spawned from these ships have 5 times as much health than if they were spawned from the main starbase. Ships designed to carry and spawn a variety of strike craft and bombers while carrying a non-trivial armament of their own. Most ships in this role require a crew.",
+        "ships": 10
+    },
+    "invasionMotherShips": {
+        "name": "Invasion Mother Ships",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Large ships that can deploy tanks from their hangers to invade colonies.",
+        "ships": 3
+    },
+    "hoverVehicles": {
+        "name": "Hover Vehicles",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "These vehicles are not spawnable at the starbase. Instead, these vehicles must be spawned in an Invasion Mother Ship or at a colony spaceport. Ground vehicles equipped with powerful shields and weapons intended to attack or defend colonies.",
+        "ships": 11
+    },
+    "questChainRewards": {
+        "name": "Quest Chain Rewards",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Complete quest chains to earn these ships.",
+        "ships": 15
+    },
+    "dailyQuestShips": {
+        "name": "Daily Quest Ships",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Complete daily quests to earn these ships.",
+        "ships": 8
+    },
+    "communityShips": {
+        "name": "Community Ships",
+        "unlockLevel": null,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "SExplore the map to find wreckages of ships created by members of the STARBASE community.",
+        "ships": 60
+    },
+    "eliteUnits": {
+        "name": "Elite Units",
+        "unlockLevel": 50,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Powerful elite units. Use is reserved to only ace commanders.",
+        "ships": 10
+    },
+    "experimentalWeaponsSystems": {
+        "name": "Experimental Weapons Systems",
+        "unlockLevel": 100,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Prototype weapon systems. These systems are not as effective as conventional units on the battlefield but their experimental weapons can be applied to devastating effect on the right targets. Use is reserved to only the most experienced commanders.",
+        "ships": 13
+    },
+    "experimentalGroundUnits": {
+        "name": "Experimental Ground Units",
+        "unlockLevel": 100,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "These vehicles are not spawnable at the starbase. Instead, these vehicles must be spawned in an Invasion Mother Ship or at a colony spaceport. Prototype ground units that, while less powerful then their non-experimental counterparts, can be applied effectively in alternative roles.",
+        "ships": 5
+    },
+    "prototypes": {
+        "name": "Prototypes",
+        "unlockLevel": 200,
+        "gamepassInfo": {
+            "isGamepassLocked": false,
+            "price": null
+        },
+        "description": "Limited-Production Prototype weapon systems. Use us reserved to only the best of the best.",
+        "ships": 10
+    },
+    "modernShipsPack": {
+        "name": "Modern Ships Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "8 exclusive ships based on iconic warships and aircraft from the modern era, both in their legendary sea-faring naval forms and star-faring modernizations. Each ship features a unique manually guided missile in its loadout, with each ship having different manually guided missile specialization. These ships receive special weapon skins to reflect real ordinance used, including RGM-84 Harpoon, BGM-109 Tomahawk (manually guided), RIM-174 ERAM (Conventionally and Manually Guided), RIM-116 (Conventionally and Manually Guided, RUM-139 (Conventionally and Manually Guided), RGM-184A and AGM-114 (Manually Guided). Models created by tytyjythtn. There ships earn 100% extra exp, effectively doubling all earned exp.",
+        "ships": 8
+    },
+    "retroShipPack": {
+        "name": "Retro Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 300
+        },
+        "unlockLevel": null,
+        "description": "Starbase ship models from 2018. These ships are less effective than their modern counterparts but earn double exp, allowing for faster acquisition of new ships and have no crew requirements.",
+        "ships": 8
+    },
+    "retroShipPack2": {
+        "name": "Retro Ship Pack 2",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "Popular older ships from the 2020 version of STARBASE. These ships feature the older style of beam laser based weaponry through also come with additional weapon systems. These ships earn double exp and have no crew requirements.",
+        "ships": 8
+    },
+    "modernJetsPack": {
+        "name": "Modern Jets Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "Aircraft used in the 21st Century on Earth converted into state-of-the-art strikecraft. These strike craft feature exclusive realistic engine sounds, mechanization animations for airbrakes and afterburners, as well as unique missile and bomb models. These fighters earn double exp allowing for faster acquisition of new ships and have no crew requirements. Models created by tytyjythtn.",
+        "ships": 7
+    },
+    "modernJetsPack2": {
+        "name": "Modern Jets II",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "Aircraft used in the 21st Century on Earth converted into state-of-the-art strikecraft. These strike craft feature exclusive realistic engine sounds, mechanization animations for airbrakes and afterburners, as well as unique missile and bomb models. These fighters earn double exp allowing for faster acquisition of new ships and have no crew requirements. Models created by tytyjythtn.",
+        "ships": 8
+    },
+    "stellarWarsShipPack": {
+        "name": "Stellar Wars Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "This gamepass contains 7 exclusive ships parodying a well known franchise involving star wars. This pack contains capital ship and strike craft designs hailing from both sides of the ongoing Man Empire Civil War. These ships earn double exp, allowing for faster acquisition of new ships and have no crew requirements.",
+        "ships": 7
+    },
+    "starBlazingLegendsShipPack": {
+        "name": "Star Blazing Legends Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "This gamepass contains 5 exclusive ships parodying well known eastern media franchises. This pack contains capital ship and strike craft designs created by baldi. These ships earn double exp, allowing for faster acquisition of new ships and have no crew requirements.",
+        "ships": 5
+    },
+    "ringWarsUmscShipPack": {
+        "name": "Ring Wars UMSC Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "Powerful warships and strike craft used by the United Military Space Coalition in their Gruelling war against the Concordat Empire. Featuring detailed interiors and powerful weapon systems, these ships are well equipped to finish the fight. These ships earn double exp and have no crew requirements. Original hull designs by Roguesoldier3.",
+        "ships": 6
+    },
+    "concordatRingWarsShipPack": {
+        "name": "Concordat Ring Wars Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "Powerful warships and strike craft used by the Concordat Empire to enforce dominion across the galaxy and fight against the forces of the United Military Space Coalition. Featuring detailed interiors and powerful weapon systems, these ships are well equipped for the great journey. These ships earn double exp and have no crew requirements. Original hull designs by Roguesoldier3.",
+        "ships": 6
+    },
+    "starportalShipPack": {
+        "name": "Starportal Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "4 Powerful capital ships and a light escort. Powerful ships capable of attacking strike craft and warships alike. Featuring detailed interiors and powerful weapon systems, these ships are well equipped to serve a variety of playstyles. These ships earn double exp and have no crew requirements.",
+        "ships": 5
+    },
+    "mechrossShipPack": {
+        "name": "Mechross Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "This gamepass contains 7 exclusive ships parodying well known eastern media franchises. This pack contains capital ship, strike craft, and cargo ship designs created by baldilohi/GalaxyExpress2199. These ships earn double exp, allowing for faster acquisition of new ships and have no crew requirements.",
+        "ships": 7
+    },
+    "spookyShipPack2022": {
+        "name": "Spooky Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 800
+        },
+        "unlockLevel": null,
+        "description": "Special halloween ship variants for Halloween 2022. These ships were on sale in 2022 and have since gone off-sale and have exclusive Halloween firework effects on their weapons. These ships earn 100% extra exp, effectively doubling all earned exp.",
+        "ships": 8
+    },
+    "ghastlyShipPack2023": {
+        "name": "Ghastly Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 800
+        },
+        "unlockLevel": null,
+        "description": "Special halloween ship variants for Halloween 2023. These ships are only on sale in 2023 and have exclusive ghostly textures and weapon effects on some weapons. These ships earn double exp, and have no crew requirements.",
+        "ships": 7
+    },
+    "festiveShipPack2022": {
+        "name": "Festive Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 800
+        },
+        "unlockLevel": null,
+        "description": "Special festive ship variants for the 2022 Holiday season. These ships were on sale from December 25th 2022 until January 16th 2023 originally and were re-run for a limited time until January 15th 2024. These ships earn 100% extra exp, effectively doubling all earned exp.",
+        "ships": 6
+    },
+    "holidayShipPack2023": {
+        "name": "Holiday Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 800
+        },
+        "unlockLevel": null,
+        "description": "Special unique jolly ships for the 2023 Holiday season. These ships were on sale for a limited time until January 15th 2024. These ships earn double exp, and have no crew requirements.",
+        "ships": 9
+    },
+    "stellarTrekWarriorsShipPack": {
+        "name": "Stellar Trek Warriors Ship Pack",
+        "gamepassInfo": {
+            "isGamepassLocked": true,
+            "price": 400
+        },
+        "unlockLevel": null,
+        "description": "Unique and powerful warships operated by fearsome warriors. These ships earn 100% extra exp, effectively doubling all earned exp.",
+        "ships": 5
+    }
+    
+}

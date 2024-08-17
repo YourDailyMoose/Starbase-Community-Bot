@@ -1,0 +1,65 @@
+{
+    "name": "Luxury Cruiser",
+    "role": "transports",
+    "cost": 500,
+    "shipDescription": "A small vessel designed for transportation in comfort. Features basic weapons and torpedoes for self-defence.",
+    "performance": {
+        "shieldStrength": 2100,
+        "maxSpeed": 265,
+        "boostDuration": 1.75,
+        "cloaking": false,
+        "minimumEfficientCrew": 0
+    },
+    "weapons": {
+        "pointDefense": {
+            "name": "Point Defense",
+            "quantity": 2,
+            "shells": {
+                "aaShell": {
+                    "name": "AA Shell",
+                    "damagesShield": {
+                        "dealsDamage": true,
+                        "value": 2
+                    },
+                    "damagesHull": {
+                        "dealsDamage": true,
+                        "value": 3
+                    },
+                    "effectedByGravity": true,
+                    "startsFires": true
+                }
+            },
+            "reloadTime": 0,
+            "turretRotation": 0
+        },
+        "lightLasers": {
+            "name": "Light Lasers",
+            "quantity": 7,
+            "shells": {
+                "laShell": {
+                    "name": "LA Shell",
+                    "damagesShield": {
+                        "dealsDamage": true,
+                        "value": 6
+                    },
+                    "damagesHull": {
+                        "dealsDamage": true,
+                        "value": 7.5
+                    },
+                    "effectedByGravity": false,
+                    "startsFires": true
+                }
+            },
+            "reloadTime": 0.5,
+            "turretRotation": 2
+        },
+        "energyTorpedoes": {
+            "name": "Energy Torpedoes",
+            "quantity": 1,
+            "shells": null,
+            "reloadTime": 2,
+            "turretRotation": null
+        }
+    },
+    "url": "https://starbase-roblox.fandom.com/wiki/Luxury_Cruiser"
+}

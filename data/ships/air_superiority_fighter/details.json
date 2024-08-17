@@ -1,0 +1,39 @@
+{
+    "name": "Air Superiority Fighter",
+    "role": "fighters", 
+    "cost": 16000,
+    "shipDescription": "A variant of the Fighter with increased speed and short and long rage missiles to outmatch other fighters or strike craft in the air.",
+    "performance": {
+        "shieldStrength": 75,
+        "maxSpeed": 1000,
+        "boostDuration": 1,
+        "cloaking": false,
+        "minimumEfficientCrew": 1
+    },
+    "weapons": {
+        "shortRangeAirToAirMissiles": {
+            "name": "Short Range Air-To-Air Missiles",
+            "quantity": 1,
+            "shells": null,
+            "reloadTime": 3,
+            "Turret Rotation": null
+
+        },
+        "rotaryAutocannon": {
+            "name": "Rotary Autocannon",
+            "quantity": 1,
+            "shell": null,
+            "reloadTime": 0.2,
+            "turretRotation": null
+        },
+        "longRangeAirToAirMissiles": {
+            "name": "Long Range Air-To-Air Missiles",
+            "quantity": 1,
+            "shells": null,
+            "reloadTime": 3,
+            "turretRotation": null
+        }
+
+    },
+    "url": "https://starbase-roblox.fandom.com/wiki/Air_Superiority_Fighter"
+}

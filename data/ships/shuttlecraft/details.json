@@ -1,0 +1,37 @@
+{
+    "name": "Shuttlecraft",
+    "role": "transports",
+    "cost": 100,
+    "shipDescription": "A small transportation craft that is capable of basic anti-air for self defence. Capable of cloaking to avoid attackers.",
+    "performance": {
+        "shieldStrength": 150,
+        "maxSpeed": 750,
+        "boostDuration": 1,
+        "cloaking": true,
+        "minimumEfficientCrew": 0
+    },
+    "weapons": {
+        "pointDefense": {
+            "name": "Point Defense",
+            "quantity": 1,
+            "shells": {
+                "aaShell": {
+                    "name": "AA Shell",
+                    "damagesShield": {
+                        "dealsDamage": true,
+                        "value": 2
+                    },
+                    "damagesHull": {
+                        "dealsDamage": true,
+                        "value": 3
+                    },
+                    "effectedByGravity": true,
+                    "startsFires": true
+                }
+            },
+            "reloadTime": 0,
+            "turretRotation": 0
+        }
+    },
+    "url": "https://starbase-roblox.fandom.com/wiki/Shuttlecraft"
+}

@@ -1,0 +1,65 @@
+{
+    "name": "Recon Shuttle",
+    "role": "transports",
+    "cost": 400,
+    "shipDescription": "A small, fast vessel designed to safely observe other vessels with its cloaking capabilities. Features basic anti-air and anti-ship weapons for self defence.",
+    "performance": {
+        "shieldStrength": 540,
+        "maxSpeed": 490,
+        "boostDuration": 1.5,
+        "cloaking": true,
+        "minimumEfficientCrew": 0
+    },
+    "weapons": {
+        "pointDefense": {
+            "name": "Point Defense",
+            "quantity": 2,
+            "shells": {
+                "aaShell": {
+                    "name": "AA Shell",
+                    "damagesShield": {
+                        "dealsDamage": true,
+                        "value": 2
+                    },
+                    "damagesHull": {
+                        "dealsDamage": true,
+                        "value": 3
+                    },
+                    "effectedByGravity": true,
+                    "startsFires": true
+                }
+            },
+            "reloadTime": 0,
+            "turretRotation": 0
+        },
+        "spinalBeams": {
+            "name": "Spinal Beams",
+            "quantity": 1,
+            "shells": {
+                "blLaser": {
+                    "name": "BL Laser",
+                    "damagesShield": {
+                        "dealsDamage": true,
+                        "value": 0.86
+                    },
+                    "damagesHull": {
+                        "dealsDamage": true,
+                        "value": 10
+                    },
+                    "effectedByGravity": false,
+                    "startsFires": false
+                }
+            },
+            "reloadTime": 4,
+            "Turret Rotation": null
+        },
+        "shipToAirMissiles": {
+            "name": "Ship-to-Air Missiles",
+            "quantity": 1,
+            "shells": null,
+            "reloadTime": 5,
+            "turretRotation": null
+        }
+    },
+    "url": "https://starbase-roblox.fandom.com/wiki/Recon_Shuttle"
+}

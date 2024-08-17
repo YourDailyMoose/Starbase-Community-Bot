@@ -1,0 +1,15 @@
+{
+    "name": "Scout",
+    "role": "transports",
+    "cost": 250,
+    "shipDescription": "A small, fast vessel designed to observe other vessels with its cloaking capabilities. Features no armament.",
+    "performance": {
+        "shieldStrength": 300,
+        "maxSpeed": 600,
+        "boostDuration": 1,
+        "cloaking": true,
+        "minimumEfficientCrew": 0
+    },
+    "weapons": null,
+    "url": "https://starbase-roblox.fandom.com/wiki/Scout"
+}
