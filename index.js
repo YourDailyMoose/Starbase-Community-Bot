@@ -49,34 +49,34 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
 });
 
-client.on("guildMemberUpdate", async (oldMember, newMember) => {
-	const guild = newMember.guild;
-	const roleId = '1274193376597639279';
-	const channelId = '1175954965399867414';
+//client.on("guildMemberUpdate", async (oldMember, newMember) => {
+	//const guild = newMember.guild;
+	//const roleId = '1274193376597639279';
+	//const channelId = '1175954965399867414';
 
 	// Check if the old member does not have the role and the new member does
-	if (!oldMember.roles.cache.has(roleId) && newMember.roles.cache.has(roleId)) {
-		const embed = new EmbedBuilder()
-			.setTitle('Welcome to Starbase Development!')
-			.setDescription(`Hey there, \`${newMember.user.username}\`! Welcome to the Starbase Development Discord server!`)
-			.setColor('#21ffd8')
-			.setTimestamp();
-
-		const channel = guild.channels.cache.get(channelId);
-		if (channel) {
-			channel.send({ embeds: [embed] });
-		} else {
-			console.error(`Channel with ID ${channelId} not found.`);
-		}
-	}
-});
+	//if (!oldMember.roles.cache.has(roleId) && newMember.roles.cache.has(roleId)) {
+	//	const embed = new EmbedBuilder()
+	//		.setTitle('Welcome to Starbase Development!')
+	//		.setDescription(`Hey there, \`${newMember.user.username}\`! Welcome to the Starbase Development Discord server!`)
+	//		.setColor('#21ffd8')
+	//		.setTimestamp();
+	//
+	//	const channel = guild.channels.cache.get(channelId);
+	//	if (channel) {
+	//		channel.send({ embeds: [embed] });
+	//	} else {
+	//		console.error(`Channel with ID ${channelId} not found.`);
+	//	}
+//	}
+//});
 
 client.once('ready', async () => {
 
 	const status = client.user.setActivity({
 		type: ActivityType.Custom,
 		name: "customstatus",
-		state: "Having fun with the STARBASE Community!",
+		state: "Having fun with the Starbase Community!",
 	});
 
 	console.log(`Ready! Logged in as ${client.user.tag}`);
