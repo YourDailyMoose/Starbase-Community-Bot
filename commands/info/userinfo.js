@@ -23,8 +23,10 @@ module.exports = {
         const guildId = interaction.guild.id;
         const discordUserId = discordUser.id;
 
+        await interaction.deferReply();
+
         if (!discordUser && !robloxId) {
-            return interaction.reply('You must provide either a Discord user or a Roblox ID.');
+            return interaction.editReply('You must provide either a Discord user or a Roblox ID.');
         }
 
         let userData;
@@ -37,10 +39,12 @@ module.exports = {
                 }
             });
             userData = response.data;
+            console.log(userData);
         } else if (robloxId) {
             // Fetch user data using Roblox ID
             const response = await axios.get(`https://api.roblox.com/users/${robloxId}`);
             userData = response.data;
+            console.log(userData);
         }
 
         const userEmbed = new EmbedBuilder()

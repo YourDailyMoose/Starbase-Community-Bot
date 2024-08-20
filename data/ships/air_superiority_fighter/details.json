@@ -8,7 +8,7 @@
         "maxSpeed": 1000,
         "boostDuration": 1,
         "cloaking": false,
-        "minimumEfficientCrew": 1
+        "minimumEfficientCrew": 0
     },
     "weapons": {
         "shortRangeAirToAirMissiles": {
@@ -16,7 +16,7 @@
             "quantity": 1,
             "shells": null,
             "reloadTime": 3,
-            "Turret Rotation": null
+            "turretRotation": null
 
         },
         "rotaryAutocannon": {

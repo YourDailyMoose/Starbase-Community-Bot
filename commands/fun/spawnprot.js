@@ -3,7 +3,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('spawnprot')
-        .setDescription('Posts the spawn protection essay'),
+        .setDescription('Posts the spawn protection copypasta.'),
 
     async execute(interaction) {
         const spawnProtEmbed = new EmbedBuilder()
