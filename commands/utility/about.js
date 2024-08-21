@@ -24,7 +24,7 @@ module.exports = {
                 { name: "Uptime", value: `${uptimeString}`, inline: true },
             )
             .setColor("#21ffd8")
-            .setFooter({ text: "Created by YourDailyMoose - Senior Moderator" });
+            .setFooter({ text: "Created by YourDailyMoose - Senior Moderator | Contributors: Guest8277320" });
 
         const button = new ButtonBuilder()
             .setStyle(ButtonStyle.Link)
