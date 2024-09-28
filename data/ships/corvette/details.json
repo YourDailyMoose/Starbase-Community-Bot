@@ -1,0 +1,36 @@
+{
+    "name": "Corvette",
+    "role": "escorts",
+    "cost": null,
+    "shipDescription": "A small vessel designed to fight other small vessels with it's Anti-Ship Missiles. Features some decent anti-air weapons for self defense.",
+    "performance": {
+        "shieldStrength": 975,
+        "maxSpeed": 300,
+        "boostDuration": 1.25,
+        "cloaking": false,
+        "minimumEfficientCrew": 0
+    },
+    "weapons": {
+        "antiShipMissiles": {
+            "name": "Anti-Ship Missiles",
+            "quantity": 1
+        },
+        "lightLasers": {
+            "name": "Light Lasers",
+            "quantity": 6
+        },
+        "miniBallLasers": {
+            "name": "Mini Ball Lasers",
+            "quantity": 6
+        },
+        "spinalBeams": {
+            "name": "Spinal Beams",
+            "quantity": 1
+        },
+        "pointDefense": {
+            "name": "Point Defense",
+            "quantity": 4
+        },
+        "url": "https://starbase-roblox.fandom.com/wiki/Corvette"
+    }
+}

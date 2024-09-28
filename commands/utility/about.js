@@ -22,9 +22,11 @@ module.exports = {
             .addFields(
                 { name: "Commands", value: `${commandCount || "Unable to Fetch"}`, inline: true },
                 { name: "Uptime", value: `${uptimeString}`, inline: true },
+                { name: "Created By", value: "YourDailyMoose", inline: true },
+                { name: "Contributors", value: "Guest8277320", inline: true }
             )
             .setColor("#21ffd8")
-            .setFooter({ text: "Created by YourDailyMoose - Senior Moderator | Contributors: Guest8277320" });
+           .setTimestamp();
 
         const button = new ButtonBuilder()
             .setStyle(ButtonStyle.Link)

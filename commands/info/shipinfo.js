@@ -77,7 +77,8 @@ module.exports = {
             const capitalizedRole = roleNames[shipInfo.role] || shipInfo.role;
 
             // Construct the weapons field value dynamically
-                        const weaponsFieldValue = Object.entries(shipInfo.weapons).map(([key, weapon]) => {
+            /*
+            const weaponsFieldValue = Object.entries(shipInfo.weapons).map(([key, weapon]) => {
                 let weaponDetails = `**${weapon.name} (x${weapon.quantity}):**\nReload Time: ${weapon.reloadTime} s\n`;
                 
                 if (weapon.turretRotation !== null) {
@@ -115,6 +116,7 @@ module.exports = {
                 
                 return weaponDetails.trim();
             }).join('\n\n');
+            */
 
             const shipEmbed = new EmbedBuilder()
                 .setTitle(shipInfo.name)
@@ -122,9 +124,9 @@ module.exports = {
                 .setColor('#37c6ff')
                 .addFields(
                     { name: 'Role', value: capitalizedRole, inline: true },
-                    { name: 'Cost', value: `${shipInfo.cost} exp`, inline: true },
+                    { name: 'Cost', value: shipInfo.cost !== null ? `${shipInfo.cost} exp` : 'Free', inline: true },
                     { name: 'Performance', value: `Shield Strength: ${shipInfo.performance.shieldStrength}\nMax Speed: ${shipInfo.performance.maxSpeed}\nBoost Duration: ${shipInfo.performance.boostDuration}\nCloaking: ${shipInfo.performance.cloaking ? '✅' : '❌'}\nMinimum Efficient Crew: ${shipInfo.performance.minimumEfficientCrew}` },
-                    { name: 'Weapons', value: weaponsFieldValue, inline: false }
+                    { name: 'Weapons', value: weaponsFieldValue, inline: false } 
                 )
                 .setFooter({ text: "Information sourced from in-game." });
 
