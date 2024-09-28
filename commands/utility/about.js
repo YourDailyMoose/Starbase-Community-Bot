@@ -18,7 +18,7 @@ module.exports = {
 
         const embed = new EmbedBuilder()
             .setTitle("Hey! I'm John Starbase!")
-            .setDescription("I am here to provide a fun twist to the server. My main function is to serve as a discord wiki bot, providing information about various topics. I can also provide some fun commands to keep you entertained!\n\nI am still in development, so please be patient with me. If you have any suggestions or feedback, please let me know!\n\nI hope you enjoy your time with me!")
+            .setDescription("I am here to provide a fun twist to the server. My main function is to serve as a discord wiki bot, providing information about various topics. I can also provide some fun commands to keep you entertained!\n\nI am still in development, so please be patient with me. If you have any suggestions or feedback, please let me know!\n\nI hope you enjoy your time with me!\n\n**Coming Soon...**\n- Quest Walkthroughs\n- Ship Database\n- Item Database\n- *And more!*")
             .addFields(
                 { name: "Commands", value: `${commandCount || "Unable to Fetch"}`, inline: true },
                 { name: "Uptime", value: `${uptimeString}`, inline: true },
